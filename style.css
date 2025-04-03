@@ -142,8 +142,8 @@ p.subtitle {
     border-radius: 8px;
     outline: none;
     transition: border-color 0.3s;
-    z-index: -99999;
-    opacity: 0;
+    /* z-index: -99999; */
+    /* opacity: 0; */
 }
 
 #typing-input:focus {
