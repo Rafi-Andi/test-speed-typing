@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Speed Typing Test</h1>
+        <p class="subtitle">Uji kecepatan mengetik Anda dan tingkatkan kemampuan Anda!</p>
+    </header>
+
+    <div class="container">
+        <div class="stats">
+            <div class="stat-box">
+                <h3>Waktu</h3>
+                <div class="stat-value" id="time">60</div>
+            </div>
+            <div class="stat-box">
+                <h3>WPM</h3>
+                <div class="stat-value" id="wpm">0</div>
+            </div>
+            <div class="stat-box">
+                <h3>Salah</h3>
+                <div class="stat-value" id="accuracy">
+                    <span class="salah-value">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-display" id="text-display">
+            <p></p>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="typing-input" placeholder="Ketik di sini setelah mulai...">
+        </div>
+
+        <div class="buttons">
+            <button class="start-btn" id="start-button">Mulai</button>
+            <button class="reset-btn" id="reset-button">Reset</button>
+        </div>
+    </div>
+
+    <div class="result-overlay" id="result-overlay">
+        <div class="result-box">
+            <h2>Hasil Tes Anda</h2>
+            <div class="result-stats">
+                <div class="result-stat">
+                    <h3>WPM</h3>
+                    <p id="result-wpm">0</p>
+                </div>
+                <div class="result-stat">
+                    <h3>Akurasi</h3>
+                    <p id="result-accuracy">0%</p>
+                </div>
+                <div class="result-stat">
+                    <h3>Waktu</h3>
+                    <p id="result-time">60s</p>
+                </div>
+            </div>
+            <button class="close-result" id="close-result">Coba Lagi</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
