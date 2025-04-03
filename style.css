@@ -88,6 +88,8 @@ p.subtitle {
     margin-bottom: 1.5rem;
     min-height: 150px;
     border: 1px solid #e2e8f0;
+    height: 100px;
+    overflow: auto;
 }
 
 .text-display p span.benar {
@@ -131,6 +133,7 @@ p.subtitle {
     margin-bottom: 1.5rem;
 }
 
+
 #typing-input {
     width: 100%;
     padding: 1rem;
@@ -139,6 +142,8 @@ p.subtitle {
     border-radius: 8px;
     outline: none;
     transition: border-color 0.3s;
+    z-index: -99999;
+    opacity: 0;
 }
 
 #typing-input:focus {

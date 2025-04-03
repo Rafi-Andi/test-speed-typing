@@ -62,5 +62,6 @@ const typingInit = () => {
     charSpan[charIndex].classList.add('aktif')
     salahValue.innerText = salah
 }
+
 randomParagraf()
 typingInput.addEventListener('input', typingInit)
